@@ -30,7 +30,7 @@ object Dependencies {
         }
     }
     const val mockito = "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
-    const val junit = "junit:junit:4.13.1"
+    const val junit = "junit:junit:4.13.2"
     const val assertj = "org.assertj:assertj-core:3.19.0"
     const val robolectric = "org.robolectric:robolectric:4.4"
     const val jdk = "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
