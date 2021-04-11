@@ -79,7 +79,7 @@ object Dependencies {
     object OkHttp {
         const val okhttp = "com.squareup.okhttp3:okhttp:4.9.1"
         const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:4.9.1"
-        const val mockWebServer = "com.squareup.okhttp3:mockwebserver:4.9.0"
+        const val mockWebServer = "com.squareup.okhttp3:mockwebserver:4.9.1"
     }
     object Glide {
         const val glide = "com.github.bumptech.glide:glide:4.11.0"
