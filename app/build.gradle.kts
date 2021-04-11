@@ -42,6 +42,17 @@ android {
     }
 }
 
+releasesHub {
+    dependenciesBasePath = "buildSrc/src/main/java/"
+    dependenciesClassNames = listOf("Dependencies.kt")
+    pullRequestEnabled = true
+    gitHubRepositoryOwner = "yoshiya12x"
+    gitHubRepositoryName = "Hilt"
+    pullRequestsMax = 5
+    gitHubUserName = "yoshiya12x"
+    gitHubUserEmail = "yoppie.bull@gmail.com@gmail.com"
+}
+
 dependencies {
     val kotlinVersion = "1.4.10"
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
