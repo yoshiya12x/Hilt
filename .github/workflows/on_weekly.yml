@@ -2,7 +2,7 @@ name: Run auto update
 on:
   repository_dispatch:
   schedule:
-    - cron: '50 11 * * *'
+    - cron: '0 8 * * *'
 jobs:
   update_dependencies:
     if: (github.event_name == 'repository_dispatch' && github.event.action == 'update_dependencies') ||
