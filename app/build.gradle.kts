@@ -5,6 +5,8 @@ plugins {
     // Hilt
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
+
+    id("com.dipien.releaseshub.gradle.plugin") version "2.0.2"
 }
 
 android {
