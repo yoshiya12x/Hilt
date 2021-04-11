@@ -50,7 +50,7 @@ releasesHub {
     gitHubRepositoryName = "Hilt"
     pullRequestsMax = 5
     gitHubUserName = "yoshiya12x"
-    gitHubUserEmail = "yoppie.bull@gmail.com@gmail.com"
+    gitHubUserEmail = "yoppie.bull@gmail.com"
 }
 
 dependencies {
