@@ -42,7 +42,7 @@ object Dependencies {
     const val material = "com.google.android.material:material:1.2.1"
     object RxJava{
         const val rxAndroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
-        const val rxJava = "io.reactivex.rxjava2:rxjava:2.2.20"
+        const val rxJava = "io.reactivex.rxjava2:rxjava:2.2.21"
         const val rxJava2RxKotlin = "io.reactivex.rxjava2:rxkotlin:2.4.0"
         const val rxKotlin = "io.reactivex:rxkotlin:1.0.0"
     }
