@@ -39,7 +39,7 @@ object Dependencies {
         const val messaging = "com.google.firebase:firebase-messaging:21.0.1"
         const val crashlytics = "com.google.firebase:firebase-crashlytics:17.3.0"
     }
-    const val material = "com.google.android.material:material:1.2.1"
+    const val material = "com.google.android.material:material:1.3.0"
     object RxJava{
         const val rxAndroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
         const val rxJava = "io.reactivex.rxjava2:rxjava:2.2.20"
