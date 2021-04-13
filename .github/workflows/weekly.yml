@@ -1,4 +1,4 @@
-name: Run auto update
+name: Make update library pr
 on:
   repository_dispatch:
   schedule:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: run auto update
+      - name: make update library pr
         run: ./gradlew upgradeDependencies
         env:
           gitHubWriteToken: ${{ secrets.RELEASES_HUB_TOKEN }}
